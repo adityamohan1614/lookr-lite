@@ -1,33 +1,86 @@
-.App {
+
+
+body {
+font-size: 16px;
+line-height: 1;
+color: #373737;
+margin: 0px;
+background-color:#55BAE6;
+padding: 0px;
+}
+
+* {
+box-sizing: border-box;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+h1 {
+color: #323232;
+font-size: 42px;
+font-weight: bold;
+line-height: 58px;
+text-transform: uppercase;
+}
+p {
+color:#323232;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+}
+.container{
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.header{
+  background: #333;
+  padding: 10px 0;
+}
+.header ul{
+  list-style: none;
+  padding: 0px;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.header ul li{
+  display: inline-block;
+  width: 33.33%;
+  border-bottom: 3px solid #ddd;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header ul li a{
+  display: inline-block;
+  padding: 10px 30%;
+  height: 70px;
+  margin:  0 0 -5px 0;
 }
-
-.App-link {
-  color: #61dafb;
+.header ul li.profile a{
+  background: url(images/profile.png) center center no-repeat;
+  width: 44px;
 }
+.header ul li.lookr a{
+  background: url(images/mask.png) center center no-repeat;
+  width: 66px;
+  border-bottom: 3px solid #55BAE6;
+}
+.header ul li.wishlist a{
+  background: url(images/path.png) center center no-repeat;
+  width: 44px;
+}
+.cardsContainer .card{
+  box-shadow: 1px 2px 4px #000;
+  background: #fff;
+  padding: 10px;
+  float: left;
+  width: 46%;
+  margin: 2% 2% 2%;
+  min-height: 600px;
+}
+.cardsContainer {
+    margin: 0 -2%;
+}
+@media only screen and (max-width: 1024px) {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+@media only screen and (max-width: 1023px) {
+
 }

@@ -1,13 +1,25 @@
 {
-  "name": "lookr",
+  "name": "lookr-lite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.19.0",
+    "gh-pages": "^2.1.1",
+    "js-cookie": "^2.2.1",
+    "mdbreact": "^4.19.1",
+    "node-pre-gyp": "^0.13.0",
     "react": "^16.8.6",
+    "react-axios": "^2.0.3",
+    "react-cookie": "^4.0.1",
+    "react-cookies": "^0.1.1",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
+  "homepage": "http://myname.github.io/myapp",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -27,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "ts-loader": "^6.1.0",
+    "webpack-cli": "^3.3.9"
   }
 }

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/lookr-lite/static/css/main.13773351.chunk.css",
+    "main.js": "/lookr-lite/static/js/main.031a1235.chunk.js",
+    "main.js.map": "/lookr-lite/static/js/main.031a1235.chunk.js.map",
+    "runtime~main.js": "/lookr-lite/static/js/runtime~main.68e54035.js",
+    "runtime~main.js.map": "/lookr-lite/static/js/runtime~main.68e54035.js.map",
+    "static/js/2.20a42577.chunk.js": "/lookr-lite/static/js/2.20a42577.chunk.js",
+    "static/js/2.20a42577.chunk.js.map": "/lookr-lite/static/js/2.20a42577.chunk.js.map",
+    "index.html": "/lookr-lite/index.html",
+    "precache-manifest.bee5e3fc468aae271ddf5baad5a65068.js": "/lookr-lite/precache-manifest.bee5e3fc468aae271ddf5baad5a65068.js",
+    "service-worker.js": "/lookr-lite/service-worker.js",
+    "static/css/main.13773351.chunk.css.map": "/lookr-lite/static/css/main.13773351.chunk.css.map"
+  }
+}
